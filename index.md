@@ -2,7 +2,10 @@
 layout: home
 search_exclude: true
 ---
-Tirth Thakkar's version of the APCSA Blog Assignment [GitHub](https://github.com/Tirth-Thakkar).  
+
+The Code Monkeys Blog for all your learning needs including, but certainly limited to:
+- Booleans
+- 2-D Arrays
 
 
 

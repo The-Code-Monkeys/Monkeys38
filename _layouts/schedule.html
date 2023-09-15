@@ -23,7 +23,7 @@ Load all posts
 {%endcomment%}
 
 {% for unit in units %}
-{% assign unitKey = "Sprint" | append: unit %}
+{% assign unitKey = "Unit " | append: unit %}
 {% assign unitData = course[unitKey] %}
 <h2>
   {{ unitKey }}: {{ unitData.title }}
@@ -50,10 +50,9 @@ Load all posts
 
 <table>
   <tr>
-    <th>Week</th>
-    <th>Code, Code, Code</th>
-    <th>Tools and DevOps</th>
-    <th>Collaboration</th>
+    <th>Topic</th>
+    <th>Lesson</th>
+    <th>Hacks <b>(What YOU gotta do!)</b></th>
   </tr>
 
   {%comment%} 
@@ -71,7 +70,6 @@ Load all posts
   {% for index in (start..end) -%}
     {% assign ccc = null | compact %}
     {% assign devops = null | compact %}
-    {% assign collab = null | compact %}
     {% assign uk = null | compact %}
 
   {%comment%} 
@@ -95,15 +93,12 @@ Load all posts
   {%comment%} 
   <!-- organizing blogs by type -->
   {%endcomment%}
-          {% if post.type == "ccc" %}
+          {% if post.type == "lessons" %}
               {% assign ccc = ccc | unshift: title %}
               {% assign ccc = ccc | unshift: url %}  
-          {% elsif post.type == "devops" %}
+          {% elsif post.type == "hacks" %}
               {% assign devops = devops | unshift: title %}
               {% assign devops = devops | unshift: url %} 
-          {% elsif post.type == "collab" %}
-              {% assign collab = collab | unshift: title %}
-              {% assign collab = collab | unshift: url %} 
           {% else %}
               {% assign uk = uk | unshift: title %}
               {% assign uk = uk | unshift: url %}     
@@ -116,7 +111,7 @@ Load all posts
   {%comment%} 
   <!-- ordering units and inserting column delimiters -->
   {%endcomment%}
-  {% assign units = units | concat:ccc | concat:deli | concat:devops | concat:deli | concat:collab %}
+  {% assign units = units | concat:ccc | concat:deli | concat:devops %}
 
   {%comment%} 
   <!-- Forever Loop with base condition break processes units and build html for each type-->
