@@ -1,13 +1,13 @@
-title: Mort-Pages 
+title: Code Monkeys Lessons 
 description: "August 2023 to June 2024"
-owner_name: Tirth Thakkar
+owner_name: Code Monkeys
 github_username: Tirth-Thakkar
-github_repo: "Mort-Pages"
-baseurl: "/Mort-Pages"
+github_repo: "Monkeys38"
+baseurl: "/Monkeys38"
 remote_theme: jekyll/minima
 minima:
-  social_links:
-    - { platform: github, user_url: "https://github.com/Tirth-Thakkar"}
+ # social_links:
+ #   - { platform: github, user_url: "https://github.com/Tirth-Thakkar"}
 
 # remote_theme: pages-themes/dinky@v0.2.0
 # remote_theme: pages-themes/minimal@v0.2.0
