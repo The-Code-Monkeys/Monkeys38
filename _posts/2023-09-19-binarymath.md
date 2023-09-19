@@ -144,7 +144,7 @@ While converting decimal numbers to binary numbers and vice versa is an importan
 
 Play around with the buttons below, which allow you to input two binary numbers and provides you with the output of the sum. Write down any notes/observations about this and see if you can get an idea of how we can add binary numbers together (required). Try to make your best guess before moving on!
 
-{% include binarymath.html %}
+
 
 There are actually rules that need to be followed when it comes to adding up binary numbers. Below is a table displaying these rules. 
 
