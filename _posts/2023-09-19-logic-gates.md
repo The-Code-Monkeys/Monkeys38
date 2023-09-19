@@ -1,22 +1,24 @@
+
+
 # Logic Gates
 Logic gates are the fundamental building blocks of digital circuits, and are critical to the functioning of basic computer functions. They are responsible for processing binary data in a computer by performing Boolean logic operations such as AND, OR, NOT, and XOR. By combining multiple logic gates, complex digital circuits can be created that can perform a wide range of operations, from basic arithmetic to complex decision-making processes.
 
 ### AND
 Boolean multiplication corresponds to the logical function of an “AND” gate, as well as to series switch contacts:
 
-![]({{ site.baseurl }}/images/truth-table-for-AND-gate1.webp)
+![]({{ site.baseurl }}/images/and.png)
 
 
 ### OR
 Boolean addition corresponds to the logical function of an “OR” gate, as well as to parallel switch contacts:
 
-![]({{ site.baseurl }}/images/logical-function-of-OR-gate2.webp)
+![]({{ site.baseurl }}/images/or.png)
 
 
 ### NOT
 Boolean complementation finds equivalency in the form of the NOT gate, or a normally-closed switch or relay contact:
 
-![]({{ site.baseurl }}/images/boolean-complementation-NOT-gate1.webp)
+![]({{ site.baseurl }}/images/nor.png)
 
 ## Half-Adder Circuit
 A half-adder circuit is used to add two bits of data together and is based on the following Truth Table.

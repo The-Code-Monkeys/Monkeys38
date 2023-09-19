@@ -269,6 +269,7 @@ java: `!(true || false)`
 python: `True^False`<br>
 javascript: `true^false`<br>
 java: `true^false`
+boolean algebra: 
 
 <table>
   <tr>
@@ -339,9 +340,6 @@ java: `!(true^false)`
 
 What do you think this value would be?
 
-# Hacks:
-
-
-Complete the following quiz below **(this is extra credit)**! Once you are done, take a screen shot of your score, and blog about the questions you got wrong. If you got everything right, reflect a bit on the quiz and congrats! This should be pretty simple/
+To take this step 
 
 
