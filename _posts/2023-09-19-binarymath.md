@@ -3,7 +3,7 @@ layout: post
 title: U3 Boolean Math
 description: Lesson on boolean math!
 courses: {'csa': {'week': 1}}
-type: hacks
+type: lessons
 ---
 
 
