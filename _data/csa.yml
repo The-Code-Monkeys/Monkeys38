@@ -1,85 +1,29 @@
 # course illustrations
 introduction_tools: &introduction_tools |
     +-----------------+
-    | Laptop, OS      |
-    | Tool Setup      | 
-    +-----------------+
-       |
-       | VS Code, Anaconda, Jupyter, Java Kernel
-       v
-    +-----------------+
-    | VS Code, Develop|
-    | Code Editor     | 
-    +-----------------+
-       |
-       | Code, build, test, debug
-       v
-    +-----------------+
-    | VS Code, Git    |
-    | Version Control |       | 
-    +-----------------+
-       |
-       | Commit local versions, track change
-       v
-    +-----------------+
-    | VS Code, Project|
-    | GitHub Sync     |
-    +-----------------+
-       |
-       | Push changes to cloud Repository
-       v
-    +-----------------+
-    | GitHub,  Collab |
-    | Shared Code     |
-    +-----------------+
-       |
-       | Actions, Jekyll build
-       v
-    +-----------------+
-    | GitHub Pages    |
-    | Showcase Project|
+         ____                      _             
+      / ___| ___   ___   __ _  __| | ___  _ __  
+      | |  _ / _ \ / _ \ / _` |/ _` |/ _ \| '_ \ 
+      | |_| | (_) | (_) | (_| | (_| | (_) | | | |
+      \____|\___/ \___/ \__,_|\__,_|\___/|_| |_|
+
     +-----------------+
 
 college_board_fundamentals: &college_board_fundamentals |
   College Board Basic Programming Units
   -------------------------------------      
-    Fundamentals of Programming
-    +------------------+
-    | CB Unit 1        |
-    | Primitive Types  | --> Types appear in Code
-    | 2.5%-5%          |
-    +------------------+
-    +------------------+
-    | Unit 3           |
-    | Booleans and Ifs | --> Understand De Morgan's Law
-    | 15%-17.5%        |
-    +------------------+
-    +------------------+
-    | Unit 4           |
-    | Iteration        | --> String Iteration, repeat until expression
-    | 17.5%-22.5%      |
-    +------------------+
-    +------------------+
-    | Unit 10 - Part 1 |
-    | Recursion        | --> Base case and recursive call
-    | 5%-7.5%          |
-    +------------------+
-            |
-    Fundamentals of Java
-    +------------------+
-    | Unit 2           |
-    | Using Objects    | --> Instance vs Static, Methods, APIs, ... 
-    | 5%-7.5%          |
-    +------------------+
-    +------------------+
-    | Unit 5           |
-    | Writing Classes  | --> Diagram a Class, constructor, setters, ... 
-    | 5%-7.5%          |
-    +------------------+
-    +------------------+
-    | Unit 9           |
-    | Inheritance      | --> Extend class, polymorphism, super, this, ...
-    | 5%-7.5%          |
+      ____ ____  
+   / ___||  _ \ 
+   | |    | | | |
+   | |___ | |_| |   
+   \____||____/ 
+      _   _      _    
+   /  \ / \    / \   
+   |    |   |  /   |  
+   |    |   | / /| |  
+   |    |   |/ __  |  
+   \__/ \_/|_/  \_/  
+
     +------------------+
   
 # CSA course meta data
