@@ -7,7 +7,6 @@ type: lessons
 ---
 
 
-
 # Binary Math
 Learn some cool stuff about binary math!
 
