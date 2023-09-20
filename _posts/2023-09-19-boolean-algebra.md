@@ -26,6 +26,6 @@ What is the expression ```(ABC+XYZ)'``` equivalent to?
 
 What is the expression ```((X+(YZ)'))'``` equivalent to?
 
-Prove the following: ```(A*(A+B)) = 1``.
+Prove the following: ```(A*(A+B)) + (B'+(AB)) = B'+ A``.
 
 
