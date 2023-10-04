@@ -269,7 +269,7 @@ java: `!(true || false)`
 python: `True^False`<br>
 javascript: `true^false`<br>
 java: `true^false`
-boolean algebra: 
+
 
 <table>
   <tr>
@@ -339,7 +339,7 @@ java: `!(true^false)`
 ### A Weird Example: 420 && 66
 
 What do you think this value would be?
+Try using code, and then binary.
 
-To take this step 
 
 

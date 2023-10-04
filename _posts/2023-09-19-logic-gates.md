@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Logic Gates
+title: U3 Logic Gates
 description: Learning Logic Gates!
 courses: { csa: {week: 1} }
 type: lessons
+authors: [Emaad M, Varalu N]
 ---
 
 # Logic Gates
