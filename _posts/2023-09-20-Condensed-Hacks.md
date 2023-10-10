@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Condensed Hacks for U3
-description: The condensed hacks for unit 3
+description: All the condensed hacks for unit 3
 comments: true
 courses: { csa: {week: 1} }
 type: hacks
@@ -27,6 +27,7 @@ Here is how the method should work:
  ## Boolean Logic
 
 Complete the weird questions below.
+
 ### Weird questions
 1. !(true)&&(false) = ? what in boolean values?
 2. not ((((true and not (false)) ^ false) ^ true) && false) (remember PEMDASNAO!)
