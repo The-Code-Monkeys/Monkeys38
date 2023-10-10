@@ -25,6 +25,8 @@ The **NOT** operator inverses whatever it is affecting.
 
 The most basic operation is one that does
 
+**Question: What NOT(true)**
+
 ## Operation(s): **AND**
 
 ### AND 
@@ -183,6 +185,8 @@ java: `X&&!(Y)`
 
 Note how the first and second terms (in their respective inhibitions) are inverted.
 
+**Question: What would 1(0) be? What about (1)(0)'? What about true&&false?**
+
 ## Operation(s): OR
 
 **AND** operations require both arguments in the function to be true in order to return true. However, or operations only require one to be true to return true. **OR** gates being more forgiving makes them great to check for different cases that AND simply cannot take. However, there are many variations that allow for greater specificity. 
@@ -261,6 +265,9 @@ java: `!(true || false)`
   </tr>
 </table>
 
+
+**Question: What would 1+0 be? What about !(true||false)**
+
 ### XOR
 
 **XOR**, eXclusive OR, *or* bitwise OR allows for a coder to only return true if specifically only one input is true, but the other input is false. For example, this would be a situation where, if you have two objects, you can only take one or the other, not both, and not none. 
@@ -335,11 +342,47 @@ java: `!(true^false)`
   </tr>
 </table>
 
+**Question: what would true^false be? what would !(false^false) be?**
 
-### A Weird Example: 420 && 66
+## PEMDASNAO 
+1. Parenthesis
+2. Exponents
+3. Mutliplication/Divsion
+4. Addition/Subtraction
+5. NOT
+6. AND
+7. OR
+**IN THIS ORDER**
 
-What do you think this value would be?
-Try using code, and then binary.
+## De Morgan's Law
+<img src="{{site.baseurl}}/images/booleanalgebralaws.png"  width="800" height="450" >
+
+Above is an image of the important boolean algebra laws that are necessary to know. Not memorize, but know. The most important one we will cover is De Morgan's law. Mainly because it is the most complex. As per wikipedia: 
+```
+The rules can be expressed in English as:
+
+- The negation of a disjunction is the conjunction of the negations
+- The negation of a conjunction is the disjunction of the negations
+```
+
+Notice how it the conjunction references AND and disjunction represents OR. Thus, this can be restated as... 
+```
+- NOT (A OR B) is equivalent to (NOT A) AND (NOT B)
+- NOT (A AND B) is equivalent to (NOT A) OR (NOT B)
+```
+This is very useful when evaluating boolean expressions.
+
+# Hacks 
+
+Complete the weird questions below.
+### Weird questions
+1. !(true)&&(false) = ? what in boolean values?
+2. not ((((true and not (false)) ^ false) ^ true) && false) (remember PEMDASNAO!)
+3. Prove the following: !A * !(B + !C) = !A * (!B * !C)
+4. 420 && 66 (Hint, convert to binary, then perform the operation)
+   1. If you got this one, try 89 OR 42
+
+For each example, you can use code, but then show your work and how you got it. Please ask questions if you are confused!
 
 
 
