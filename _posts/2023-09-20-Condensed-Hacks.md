@@ -4,6 +4,7 @@ title: Condensed Hacks for U3
 description: The condensed hacks for unit 3
 courses: { csa: {week: 1} }
 type: hacks
+comments: true
 ---
 
 ## Boolean and If Statements
