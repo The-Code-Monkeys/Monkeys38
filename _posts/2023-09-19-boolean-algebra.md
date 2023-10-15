@@ -9,7 +9,7 @@ type: lessons
 
 # Boolean Algebra Laws
 
-<img src="{{site.baseurl}}/images/booleanalgebralaws.png"  width="800" height="450" />
+
 
 As you can see from the table above, most of the boolean laws are the basic mathematical operations that you are probably familiar with. However, there are a few of these laws that are especially important and are ones that College Board wants you to know for the exam, such as De Morgan's law. 
 
