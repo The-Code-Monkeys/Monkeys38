@@ -18,7 +18,7 @@ The hardware allows for power to be directed to all facets of the robot. By prov
 # How Everything is Wired
 The primary connections, since we aren't using any other connectors or external components, are simply the Dual H Bridge, being powered by the raspberry pi. The Dual H Bridge is also connected to each of the two motors, and by doing so are powering each of the motors. Each of the pins is connected via ENA/ENB, and also by in1-4 pins which are used to control the direction and voltage of each of the motors. By doing this, we are able to control movement and speed of the robot. 
 
-![](images/../../images/diagram.png)
+![]({{site.baseurl}}/images/diagram.png)
 Diagram of how the raspberry Pi Wiring would turn out, using the dual h motor bridge and connected wires. Rather simple!
 
 ## Issues?
