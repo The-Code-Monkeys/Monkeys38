@@ -30,7 +30,7 @@ We tried to create the backend using Spring, and I made sure to add the necessar
 
 One of the main issues with our Spring Portfolio was that whenever we tried to add code to several Java files, we would notice that there were an oddly high number of reported errors in our code, even though everything looked like it should have been processed as ok. Below is an example of what the portfolio looked like as we opened it in VSCode:
 
-![](images/../../images/errors.png)
+![]({{site.baseurl}}/images/errors.png)
 
 
 Mr Mortensen, thankfully, suggested that we try running his project (unchanged) on my machine. When we recloned the repository and tried that, everything seemed to be working okay. So what was the solution? It turned out that we were getting all of those errors because of where I placed the websocket folder. Mr. Mortensen told us that the package statement at the very top should have had an mvn, but ours did not. All we had to do was make websocket its *own* folder (not within mvc) so that everything would process correctly (which did happen!)
@@ -42,11 +42,11 @@ While there are several other issues we ran into, they were generally much small
 
 This repository ended up being quite different from Spring portfolio in that both the frontend and the backend were in the same repository. This was a bit unusual, as we normally would have expected to have the frontend and backend running from two different projects. The benefit of this repository was that it had a chat system that printed out a message for anytime a new client joined and provided the client's unique id (which is normally just a bunch of random characters). Before we made any changes, the repo looked like this:
 
-![](images/../../images/netty.png)
+![]({{site.baseurl}}/images/netty.png)
 
 Now, after we modified the system to better fit our project, the new page looks like this:
 
-![](images/../../images/revamp.png)
+![]({{site.baseurl}}/images/revamp.png)
 
 
 The colored buttons represent the directions in which the robots can go in. Once a person who is in front of the queue has control of the robot, they can move the robot in the direction corresponding to the arrow shown on the button. In console and terminal, you can even get a view of the motor functions being called whenever the button is pressed on. The button that checks for the user id is intended to check to see if a certain id indeed exists within the queue. While there were several benefits to using this repository over the Spring Portfolio, there were also a few issues we ran into while trying to use this.
